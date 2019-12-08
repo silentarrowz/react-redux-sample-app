@@ -1,0 +1,14 @@
+
+.buttonContainer{
+    text-align: center;
+    margin-top:5px;
+    :first-child{
+        background-color: darkorange;
+    }
+    :nth-child(2){
+        background-color: red;
+        a{
+            background-color: red;
+        }
+    }
+}

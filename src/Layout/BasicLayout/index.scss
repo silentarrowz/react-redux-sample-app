@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+.headerStyle{
+  position:fixed;
+  z-index: 900;  
+  font-size:40px;
+  width: calc("100vw - 200px");
+  color:red;
+  padding: 0px;
+  margin-left: 200px;
+  :global{
+    .ant-layout-header{
+      background-color: white;
+      padding: 0px;
+    }
+  }
+}
+
+.contentStyle{
+  margin-left: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+  .headerStyle{
+    margin-left: 80px;
+    width: calc("100vw - 80px");
+  }
+  .contentStyle{
+    margin-left: 20px;
+  }
+}

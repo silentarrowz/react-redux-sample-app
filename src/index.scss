@@ -1,0 +1,23 @@
+html,
+body,
+:global(#root) {
+    height: 100%;    
+    font-family: 'Lato', sans-serif !important;
+}
+
+// :global(.ant-layout) {
+//     display: flex;    
+//     min-height: 100%;
+// }
+
+:global(.ant-layout-sider){
+    box-shadow: 1px 2px 2px darkgrey;
+    min-height: 58vw;
+    background: white;
+}
+
+:global(.ant-layout-header){
+    background: none;
+}
+
+

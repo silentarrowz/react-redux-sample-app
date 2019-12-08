@@ -1,0 +1,19 @@
+
+
+.title{
+    margin-bottom: -19px;
+    font-weight: bold;
+}
+.description{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+:global{
+    .ant-card-hoverable:hover {
+        -webkit-box-shadow: 0 2px 12px 4px rgba(40, 72, 229, 0.2) !important;
+        box-shadow: 0 2px 12px 4px rgba(40, 72, 229, 0.2) !important; //0, 0, 0, 0.09
+        border-color: rgba(0, 0, 0, 0.09);
+    }
+}
